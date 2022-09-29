@@ -33,12 +33,18 @@
   
   footer {
     clear: both;
+    background-color: rgb(24, 71, 226);
+    border-top: 5px solid rgb(24, 71, 226);
   }
   
-  header, section, aside, nav, footer {
+  section, aside, nav, footer {
     padding: 20px;
   }
   
+  header{
+    padding: 30px;
+  }
+
   a {
     outline: none;
     text-decoration: none;
@@ -46,16 +52,16 @@
 
   /* header and footer */
 
+  .logo{
+    float: left;
+    margin-right: 30px;
+  }
+
   header{
     background-color: rgb(25, 45, 109);
     border-bottom: 5px solid rgb(25, 45, 109);
   }
 
-  footer{
-    background-color: rgb(24, 71, 226);
-    border-top: 5px solid rgb(24, 71, 226);
-  }
-  
   header, footer {
     color:white;
   }
