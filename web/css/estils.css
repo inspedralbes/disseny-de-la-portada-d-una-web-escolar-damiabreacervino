@@ -1,5 +1,5 @@
 /* General setup */
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-    font-family: 'Nabla', cursive;
+    font-family: 'Kanit', sans-serif;
   }
   
   /* Layout */
@@ -40,10 +40,19 @@
   }
   
   /* header and footer */
+
+  header{
+    background-color: rgb(25, 45, 109);
+    border-bottom: 5px solid rgb(25, 45, 109);
+  }
+
+  footer{
+    background-color: rgb(24, 71, 226);
+    border-top: 5px solid rgb(24, 71, 226);
+  }
   
   header, footer {
-    border-top: 5px solid #a66;
-    border-bottom: 5px solid #a66;
+    color:white;
   }
   
   /* WRITE YOUR CODE BELOW HERE */
