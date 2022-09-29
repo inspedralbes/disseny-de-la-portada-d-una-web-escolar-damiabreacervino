@@ -8,3 +8,5 @@ Típicament, els següents fitxers organitzats en les carpetes corresponents:
  -  js
  -  css
  -  
+
+ He utilitzat Filezilla
