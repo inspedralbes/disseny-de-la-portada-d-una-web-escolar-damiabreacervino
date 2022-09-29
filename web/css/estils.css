@@ -39,6 +39,11 @@
     padding: 20px;
   }
   
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+
   /* header and footer */
 
   header{
