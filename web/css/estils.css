@@ -103,3 +103,10 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  .divs{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+  }
